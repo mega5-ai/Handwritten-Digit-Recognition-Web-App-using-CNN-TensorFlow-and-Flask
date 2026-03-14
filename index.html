@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Handwritten Digit Recognition</title>
+  <style>
+    body { font-family: Arial; }
+    canvas { border: 2px solid black; }
+    button { padding: 6px 15px; margin: 5px; }
+  </style>
+</head>
+
+<body>
+
+<h2>Draw a Number (0–9)</h2>
+
+<canvas id="canvas" width="280" height="280"></canvas>
+<br><br>
+
+<button onclick="clearCanvas()">Clear</button>
+<button onclick="predict()">Predict</button>
+
+<h3 id="result"></h3>
+
+<script src="/static/canvas.js"></script>
+</body>
+</html>
